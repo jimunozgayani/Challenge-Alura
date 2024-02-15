@@ -1,6 +1,7 @@
 footer{
+    width: 940px;
     text-align: center;
-        background-color: black;
+        background-color: rgb(60, 60, 60);
         /*cambiar color después dependiendo de la paleta*/
     padding: 40px;
 }
