@@ -1,0 +1,11 @@
+footer{
+    text-align: center;
+        background-color: black;
+        /*cambiar color después dependiendo de la paleta*/
+    padding: 40px;
+}
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin: 20px;
+}
