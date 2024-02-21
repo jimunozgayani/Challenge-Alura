@@ -3,9 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Encriptador de Textos</title>
+    <title>Encriptador Alura</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
+    <header>
+        <h1>Encriptador de textos</h1>
+    </header>
+    <main>
+        <section class="texto-botones">
+            <textarea id="texto-encriptado" class="campo-texto"         placeholder="texto a encriptar"></textarea>
+            <div class="btn">
+                <button class="btnEncriptar">Encriptar</button>
+                <button class="btnDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="espacio-encriptador">
+            <textarea id="campo-mensaje" class="mensaje"></textarea>
+            <div class="btn">
+                <button class="copia-mensaje-encriptado">copiar</button>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p class="copyright">&copy Copyright Ruli - 2024</p>
+    </footer>
+    <script src="app.js"></script>
     
 </body>
 </html>

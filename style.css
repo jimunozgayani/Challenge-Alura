@@ -1,5 +1,55 @@
+.texto-botones{
+    display: inline-block;
+    width: 70%;
+    border-color: black;
+}
+.espacio-encriptador{
+    display: inline-block;
+}
+.copia-mensaje-encriptado{
+    display: block;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 footer{
-    width: 940px;
     text-align: center;
         background-color: rgb(60, 60, 60);
         /*cambiar color después dependiendo de la paleta*/
