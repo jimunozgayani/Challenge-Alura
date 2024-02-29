@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encriptador Alura</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.cdnfonts.com/css/arcade-classic" rel="stylesheet">
+                
 </head>
 
 <body>
@@ -13,16 +15,22 @@
     </header>
     <main>
         <section class="texto-botones">
-            <textarea id="texto-encriptado" class="campo-texto"         placeholder="texto a encriptar"></textarea>
-            <div class="btn">
+            <textarea id="texto-encriptado" class="campo-texto"         placeholder="Ingrese su texto aquí" rows="40" cols="40"></textarea>
+            <div class="botones-informativo">
+                <div class="espacioInformativo">
+                    <h6 class="informativo">&#9432; Solo letras minúsculas y sin acentos</h6>
+                </div>
+                <div class="btn">
                 <button class="btnEncriptar" onclick = "btnEncriptar()" >Encriptar</button>
                 <button class="btnDesencriptar" onclick="btnDesencriptar()">Desencriptar</button>
+                </div>
             </div>
         </section>
         <section class="espacio-encriptador">
-            <textarea id="campo-mensaje" class="mensaje"></textarea>
+            <textarea id="campo-mensaje" class="mensaje" placeholder="Ningún mensaje fue encontrado" rows="40" cols="30"></textarea>
+          
             <div class="btn">
-                <button class="copia-mensaje-encriptado">copiar</button>
+                <button class="copia-mensaje-encriptado" onclick="copiarAlPortapapeles()">copiar</button>
             </div>
         </section>
     </main>

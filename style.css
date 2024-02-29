@@ -1,16 +1,55 @@
-.texto-botones{
-    display: inline-block;
+*{
+    font-family: 'ArcadeClassic', sans-serif;
+}
+header{
+    height: 15%;
+}
+main{
+    display: flex;
+    margin: 10px,0;
+    height: 70%;
+}
+.campo-texto{
     width: 70%;
+    background-color: lightgray;
+    margin: 0;
+    border-color: gray;
+    border-style: dotted;
+    font-size: 15px;
+}
+
+.texto-botones{
     border-color: black;
+    width: 70%;
+    text-align: center;
+    margin-bottom: 20px;
+    
 }
+
+.botones-informativo{
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.informativo{
+    margin: 0;
+    font-size: 15px;
+    color: lawngreen;
+    padding-right: 115px;
+}
+
+.btnEncriptar{
+    margin-right: 200px;
+}
+
 .espacio-encriptador{
-    display: inline-block;
+   width: 30%;
+   padding-left: 200px;
 }
-.copia-mensaje-encriptado{
-    display: block;
+footer{
+    height: 15%;
 }
-
-
 
 
 
