@@ -31,7 +31,7 @@ main{
     border-width: 5px;
     font-size: 15px;
     resize: none ;
-    box-shadow: 20px 20px white;
+    box-shadow: 05px 10px 2px darkslategrey;
 }
 
 .texto-botones{
