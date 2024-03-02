@@ -1,8 +1,22 @@
 *{
     font-family: 'ArcadeClassic', sans-serif;
+    letter-spacing: 0.25em;
+    word-spacing: 0.25em;
 }
+body{
+    margin: 0;
+    background-color: black;
+}
+
 header{
     height: 15%;
+}
+
+h1{ font-weight: bold;
+    color: darkred;
+    padding-left: 20px;
+    margin-left: 20px;
+
 }
 main{
     display: flex;
@@ -12,18 +26,19 @@ main{
 .campo-texto{
     width: 70%;
     background-color: lightgray;
-    margin: 0;
-    border-color: gray;
-    border-style: dotted;
+    border-color: black;
+    border-style: double;
+    border-width: 5px;
     font-size: 15px;
+    resize: none ;
+    box-shadow: 20px 20px white;
 }
 
 .texto-botones{
     border-color: black;
     width: 70%;
     text-align: center;
-    margin-bottom: 20px;
-    
+      
 }
 
 .botones-informativo{
@@ -34,9 +49,9 @@ main{
 
 .informativo{
     margin: 0;
-    font-size: 15px;
-    color: lawngreen;
-    padding-right: 115px;
+    font-size: 12px;
+    color: darkred;
+    padding-right: 120px;
 }
 
 .btnEncriptar{
@@ -46,10 +61,21 @@ main{
 .espacio-encriptador{
    width: 30%;
    padding-left: 200px;
+    text-align: center;
 }
-footer{
-    height: 15%;
+
+.mensaje{
+    width: 70%;
+    background-color: white;
+    margin: 0;
+    border-color: gray;
+    border-style: dotted;
+    font-size: 15px;
+    resize: none ;
 }
+
+
+
 
 
 
