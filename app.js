@@ -20,7 +20,7 @@ const matriz_code2 = [
 function btnEncriptar() {
     const texto = encriptar(campo_texto.value);
     campo_mensaje.value = texto;
-    
+    imgchange();
 }
 
 function btnDesencriptar() {
@@ -59,16 +59,20 @@ function limpiarCajaDos(){
     campo_mensaje.value = "";
 }
 
+function imgchange(){
+    let imgchange = document.getElementById(imagenEnigma);
+    imgchange.src = "IMAGES/enigma_ani.medium.gif";
+}
+
 
 function copiarAlPortapapeles() {
         campo_mensaje.select()
         campo_mensaje.setSelectionRange(0,9999999);
 
         navigator.clipboard.writeText(campo_mensaje.value);
-        alert("texto encriptado copiado al portapapeles");
-       limpiarCajaDos();
-      
-    }
+        limpiarCajaDos();
+}
+
 
 
 
