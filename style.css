@@ -98,7 +98,53 @@ main{
     cursor:pointer
 }
 
-
+@media screen and (max-width: 480px){
+    header{
+        height: 15%;
+        font-weight: bold;
+        text-align: center;
+        text-shadow: 1px 3px 3px darkred;
+        font-size: 20px;
+        width: 100%
+    }
+    main{
+        display: inline-block;
+    }
+    .campo-texto{
+        padding-left: 15%;
+        width:100%;    
+    }
+    .informativo{
+        width: 100%
+    }
+    .btnEncriptar{
+    align-self: center;
+    margin-bottom: 2em;
+    margin-left: 8em;
+    }
+    .btnDesencriptar{
+        margin-left: 4em;
+    }
+    .gifEnigma{
+        display: none;
+    }
+    .espacio-encriptador{
+        width: fit-content;
+        padding: 0;
+        margin-bottom: 10%;
+    }
+    .mensaje{
+        width: 100%;
+        margin-left: 2.5em;
+    }
+    .copia-mensaje-encriptado{
+        margin-left: 3em;
+    }
+    footer{
+        width: 100%;
+    }
+    
+}
 
 
 

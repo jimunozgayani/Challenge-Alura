@@ -20,7 +20,6 @@ const matriz_code2 = [
 function btnEncriptar() {
     const texto = encriptar(campo_texto.value);
     campo_mensaje.value = texto;
-    imgchange();
 }
 
 function btnDesencriptar() {
@@ -57,11 +56,6 @@ function desencriptar(frasedesencriptada){
 
 function limpiarCajaDos(){
     campo_mensaje.value = "";
-}
-
-function imgchange(){
-    let imgchange = document.getElementById(imagenEnigma);
-    imgchange.src = "IMAGES/enigma_ani.medium.gif";
 }
 
 
